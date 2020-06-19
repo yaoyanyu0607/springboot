@@ -22,8 +22,10 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <!--新增-->
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+            <!--新增-->
+    </dependency>
 
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -74,6 +76,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
+            <!--新增-->
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
@@ -90,6 +93,7 @@
                     </resources>
                 </configuration>
             </plugin>
+            <!--新增-->
         </plugins>
     </build>
 </project>
